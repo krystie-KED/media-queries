@@ -1,0 +1,30 @@
+Contexte : 
+	Un recruteur vous envoie un test technique qui consiste à intégrer au format web une maquette fournis par le graphiste de la boite,
+	 le temps est compté, vous devez lui renvoyer par mail le lien github de votre rendu dans seulement 2h !
+
+Recommendation : 
+	- Pour obtimiser le réferencement pensez sémantique
+	- Faire des commit régulier, clair et conscit, montrez que vous êtes organiser
+	- Pensez valeur relative pour rendre votre interface adaptable ! (% pour la largeur des bloc, em pour les textes)
+
+Restrictions : 
+	- Soyez flex ! (flexbox obligatoire pour le positionnement)
+	- Pas de valeur négative (margin/padding, position)
+	- Pas de balise br
+
+
+Vous devez etre capables d'intégrer la maquette avec uniquement les propriéter css suivantes (pour gerez positionnement) : 
+
+display: flex;
+justify-content
+align-items
+flex-wrap
+flex-flow
+flex-direction
+margin/padding
+width
+text-align
+
+
+
+					MAY THE FORCE BE WITH YOU PADAWAN !
