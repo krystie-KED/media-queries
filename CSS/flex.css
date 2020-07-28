@@ -1,143 +1,245 @@
-        /*Fonts*/
-        
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-        /*general*/
-        
-        h1,
-        h3,
-        h2,
-        li,
-        footer {
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        h3 {
-            margin-top: 5%;
-            text-align: center;
-        }
-        /*menu de navigation*/
-        
-        body>nav {
-            background-color: black;
-            color: white;
-            display: flex;
-        }
-        
-        nav a img {
-            max-width: 60%;
-        }
-        /*header*/
-        
-        header {
-            background-color: rgb(125, 108, 141);
-            min-height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        header h3 {
-            color: white;
-            background-color: darkslateblue;
-            padding: 10px 40px 10px 40px;
-        }
-        /*statitics*/
-        
-        #statistics {
-            background-color: black;
-            display: flex;
-            color: white;
-            justify-content: center;
-        }
-        
-        .statistic {
-            border: 1px solid white;
-            text-align: center;
-            padding: 8px;
-            margin: 8px 0px 8px 0px;
-        }
-        
-        .statistic h2 {
-            margin-bottom: 0;
-            font-size: 3em;
-        }
-        
-        .statistic p {
-            margin-top: 0;
-        }
-        /*services*/
-        
-        #services {
-            text-align: center;
-            margin: auto;
-            max-width: 80%;
-        }
-        
-        #services div {
-            display: flex;
-            justify-content: space-around;
-        }
-        
-        article.service {
-            width: 100px;
-            height: 100px;
-            background-color: lavenderblush;
-        }
-        
-        article.service:nth-child(2) {
-            background-color: lightskyblue;
-        }
-        /*latest projects*/
-        
-        #projects {
-            background-color: black;
-            text-align: center;
-        }
-        
-        #projects h3 {
-            color: white;
-            padding-top: 3%;
-        }
-        
-        #projects nav ul {
-            display: flex;
-            justify-content: center;
-        }
-        
-        #projects ul li {
-            list-style: none;
-            color: white;
-            margin: 20px;
-        }
-        
-        #projects ul li:nth-child(2) {
-            color: blue;
-        }
-        
-        #projects div {
-            padding: 0px 100px 0px 100px;
-            min-height: 500px;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        
-        .project {
-            width: 250px;
-            height: 250px;
-            background-color: white;
-            margin-bottom: 5%;
-        }
-        /*footer*/
-        
-        footer {
-            background-color: rgba(0, 0, 0, 0.9);
-            color: white;
-            min-height: 50px;
-            display: flex;
-        }
-        
-        footer p {
-            font-size: 0.8em;
-            margin-left: 60px;
-        }
+                        /*Fonts*/
+                        
+                        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+                        /*general*/
+                        
+                        h1,
+                        h3,
+                        h2,
+                        li,
+                        footer {
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        
+                        h3 {
+                            margin-top: 5%;
+                            text-align: center;
+                        }
+                        /*menu de navigation*/
+                        
+                        body>nav {
+                            background-color: black;
+                            color: white;
+                            display: flex;
+                        }
+                        
+                        nav a img {
+                            max-width: 60%;
+                        }
+                        /*header*/
+                        
+                        header {
+                            background-color: rgb(125, 108, 141);
+                            min-height: 500px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        header h3 {
+                            color: white;
+                            background-color: darkslateblue;
+                            padding: 10px 40px 10px 40px;
+                        }
+                        /*statitics*/
+                        
+                        #statistics {
+                            background-color: black;
+                            display: flex;
+                            color: white;
+                            justify-content: center;
+                        }
+                        
+                        .statistic {
+                            border: 1px solid white;
+                            text-align: center;
+                            padding: 8px;
+                            margin: 8px 0px 8px 0px;
+                        }
+                        
+                        .statistic h2 {
+                            margin-bottom: 0;
+                            font-size: 3em;
+                        }
+                        
+                        .statistic p {
+                            margin-top: 0;
+                        }
+                        /*services*/
+                        
+                        #services {
+                            text-align: center;
+                            margin: auto;
+                            max-width: 80%;
+                        }
+                        
+                        #services div {
+                            display: flex;
+                            justify-content: space-around;
+                        }
+                        
+                        article.service {
+                            width: 200px;
+                            height: 200px;
+                            background-color: lavenderblush;
+                        }
+                        
+                        article.service:nth-child(2) {
+                            background-color: lightskyblue;
+                        }
+                        /*latest projects*/
+                        
+                        #projects {
+                            background-color: black;
+                            text-align: center;
+                        }
+                        
+                        #projects h3 {
+                            color: white;
+                            padding-top: 3%;
+                        }
+                        
+                        #projects nav ul {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        #projects ul li {
+                            list-style: none;
+                            color: white;
+                            margin: 20px;
+                        }
+                        
+                        #projects ul li:nth-child(2) {
+                            color: blue;
+                        }
+                        
+                        #projects div {
+                            padding: 0px 100px 0px 100px;
+                            min-height: 500px;
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .project {
+                            width: 250px;
+                            height: 150px;
+                            background-color: white;
+                            margin-bottom: 5%;
+                        }
+                        /*footer*/
+                        
+                        footer {
+                            background-color: rgba(0, 0, 0, 0.9);
+                            color: white;
+                            min-height: 50px;
+                            display: flex;
+                        }
+                        
+                        footer p {
+                            font-size: 0.8em;
+                            margin-left: 60px;
+                        }
+                        /************media queries*********/
+                        
+                        @media only screen and (min-width: 670px) {
+                            /*header*/
+                            header {
+                                background-color: rgb(125, 108, 141);
+                                min-height: 250px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            /*stat*/
+                            #statistics {
+                                background-color: black;
+                                display: flex;
+                                color: white;
+                                justify-content: center;
+                                flex-wrap: wrap;
+                            }
+                            .statistic {
+                                border: 1px solid white;
+                                width: 180px;
+                                text-align: center;
+                                padding: 8px;
+                                margin: 8px 0px 8px 0px;
+                            }
+                            .statistic h2 {
+                                margin-bottom: 0;
+                                font-size: 3em;
+                            }
+                            .statistic p {
+                                margin-top: 0;
+                            }
+                            /*services*/
+                            #services div {
+                                display: flex;
+                                justify-content: space-around;
+                                flex-wrap: wrap;
+                            }
+                            article.service {
+                                margin-top: 2%;
+                                width: 200px;
+                                height: 150px;
+                                background-color: lavenderblush;
+                            }
+                        }
+                        
+                        @media only screen and (max-width: 670px) {
+                            /*header*/
+                            header {
+                                background-color: #D3D3D3;
+                                min-height: 100px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            header h3 {
+                                color: white;
+                                background-color: skyblue;
+                                padding: 10px
+                            }
+                            /*stat*/
+                            #statistics {
+                                display: none;
+                            }
+                            /*services*/
+                            #services div {
+                                display: flex;
+                                justify-content: space-around;
+                                flex-wrap: wrap;
+                            }
+                            article.service {
+                                margin-top: 2%;
+                                width: 300px;
+                                height: 150px;
+                                background-color: gray;
+                            }
+                            article.service:nth-child(2) {
+                                background-color: skyblue;
+                            }
+                            /*latest pro*/
+                            .project {
+                                width: 280px;
+                                height: 150px;
+                                background-color: white;
+                                margin-bottom: 5%;
+                            }
+                            #projects ul li:nth-child(2) {
+                                color: skyblue;
+                            }
+                            /*footer*/
+                            footer {
+                                background-color: rgba(0, 0, 0, 0.9);
+                                color: white;
+                                min-height: 50px;
+                                display: flex;
+                                justify-content: center;
+                            }
+                            footer p {
+                                font-size: 0.8em;
+                            }
+                        }

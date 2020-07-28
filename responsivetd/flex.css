@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* MAIN NAV */
+
+nav {
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    align-items: center;
+}
+nav h1 {
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+/* HEADING */
+
+ header {
+    background: purple;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h3 {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 50px;
+}
+
+/* STATISTICS SECTION */
+
+#statistics {
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    min-height: 150px;
+    padding: 15px 0px;
+}
+.statistic {
+    width: 15%;
+    min-height: 80px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.statistic h2 + p {
+    margin: 0;
+}
+
+/* SERVICES SECTION */
+
+#services {
+    background: lightgrey;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#services h3 {
+    width: 70%;
+}
+#services p {
+    width: 75%;
+}
+#services div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+    padding: 55px 0px;
+}
+.service {
+    width: 180px;
+    background: orange;
+    min-height: 180px;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#projects h3 {
+    width: 70%;
+}
+#projects nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#projects ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+#projects li {
+    list-style: none;
+    cursor: pointer;
+}
+#projects li:hover {
+    color: blue;
+}
+#projects div {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.project {
+    width: 30%;
+    background: yellow;
+    margin-top: 30px;
+    min-height: 220px;
+    cursor: pointer;
+}
+.project:hover {
+    opacity: 0.1;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: #181818;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+footer p {
+    margin-left: 10%;
+}
